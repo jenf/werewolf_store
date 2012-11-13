@@ -1,0 +1,22 @@
+body
+{
+}
+
+.editing
+{
+	background: yellow;
+}
+
+.editable input
+{
+	display: none;
+}
+
+.editable.editing label
+{
+	display: none;
+}
+.editable.editing input
+{
+	display: inline-block;
+}

@@ -1,0 +1,27 @@
+<html>
+	<head>
+					<title>Werewolf Store</title>
+					<link href="css/ui-darkness/jquery-ui-1.9.1.custom.css" rel="stylesheet">
+					<link href="werewolf.css" rel="stylesheet"></link>
+					<script src="js/jquery-1.8.2.js"></script>
+					<script src="js/jquery-ui-1.9.1.custom.js"></script>
+					<script src="js/underscore-min.js"></script>
+					<script src="js/backbone-min.js"></script>
+					<script src="js/backbone.localStorage-min.js"></script>
+					<script src="werewolf.js"></script>
+
+					<script type="text/template" id="player-template">
+									<div class="player">
+											<span class="name editable">
+													<label><%= name %></label>
+													<input class='edit' type="text" value="<%= name %>"></input>:
+											</span>
+											<%= state %>
+											<span class='remove'>[x]</span>
+							</div>
+					</script>
+					
+	</head>
+	<body>
+	</body>
+</html>
