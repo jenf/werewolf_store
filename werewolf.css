@@ -7,7 +7,7 @@ body
 	background: yellow;
 }
 
-.editable input
+.editable input, .editable select
 {
 	display: none;
 }
@@ -16,7 +16,7 @@ body
 {
 	display: none;
 }
-.editable.editing input
+.editable.editing input, .editable.editing select
 {
 	display: inline-block;
 }

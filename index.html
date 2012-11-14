@@ -16,7 +16,19 @@
 													<label><%= name %></label>
 													<input class='edit' type="text" value="<%= name %>"></input>:
 											</span>
-											<%= state %>
+                                            <span class="state editable">
+											  <label><%= state %></label>
+                                              <select class='edit'>
+                                              <% for (x in types) { %>
+                                                <option 
+                                                 <% if (types[x] == state) {%>
+                                                  selected='selected'
+                                                 <% } %>
+                                                 >
+                                                 <%= types[x] %></option>
+                                              <% } %>
+                                              </select>
+                                            </span>
 											<span class='remove'>[x]</span>
 							</div>
 					</script>
